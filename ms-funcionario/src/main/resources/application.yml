@@ -1,0 +1,18 @@
+server:
+  port: 8092
+  error:
+    include-message: always
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+  #proj-config
+  proj-config:
+    console: true
+    path: /proj-config

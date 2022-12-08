@@ -1,0 +1,8 @@
+spring:
+  application:
+name: "funcionario"
+profiles:
+  active: "prof-config"
+clould:
+  config:
+  uri: http://localhost:9090
